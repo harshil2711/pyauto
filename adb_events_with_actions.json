@@ -1,0 +1,75 @@
+[
+  {
+    "event": "adb_page_load",
+    "user": {
+      "loginStatus": "Not Logged In",
+      "gaClientid": "NAIDL",
+      "userType": "Guest User",
+      "userID": "NAIDL",
+      "defaultCountry": "US",
+      "walletBalance": "NAIDL",
+      "lastTransactionDate": "NAIDL",
+      "lastTransactionValue": "NAIDL",
+      "lifeTimePurchaseValue": "NAIDL",
+      "accountCreationDate": "NAIDL",
+      "totalNumberofOrder": "NAIDL",
+      "timeStamp": 1748450204209
+    },
+    "page": {
+      "pageName": "Home : Patio Furniture Covers : Seating Covers : Chair Covers : Dining Armchair Custom Covers",
+      "pageType": "product",
+      "pagePath": "https://www.coversandall.com/patio-furniture-covers/seating-covers/chair-covers/chair-cover-design-1-p",
+      "httpStatus": "200: OK"
+    }
+  },
+  {
+    "ecommerce": {
+      "currency": "USD"
+    },
+    "page": {
+      "pageName": "Home : Patio Furniture Covers : Seating Covers : Chair Covers : Dining Armchair Custom Covers",
+      "pageType": "product",
+      "pagePath": "https://www.coversandall.com/patio-furniture-covers/seating-covers/chair-covers/chair-cover-design-1-p",
+      "httpStatus": "200: OK"
+    },
+    "event": "adb_product_view",
+    "products": [
+      {
+        "ProductParentCategory": "Patio Furniture Covers",
+        "ProductSubCategory": "Seating Covers",
+        "ProductSubSubCategory": "Chair Covers",
+        "categoryID": "323",
+        "parentProductId": "3577",
+        "productCategory": "Patio Furniture Covers : Seating Covers : Chair Covers",
+        "productDiscountedprice": 20.05,
+        "productID": "PatioSeatingCover001",
+        "productFabric": "NAIDL",
+        "fabricColor": "Black",
+        "productName": "Dining Armchair Custom Covers",
+        "productImageURL": "https://cdn.coversandall.com/media/catalog/product/c/h/chair-covers_1.jpg?width=270&height=270&canvas=270,270&optimize=high&bg-color=255,255,255&fit=bounds",
+        "productOriginalPrice": 20.05,
+        "productPrice": 20.05,
+        "productTotalPrice": 20.05,
+        "productQuantity": 1,
+        "productRating": 4.6,
+        "productReviews": 373,
+        "productSKU": "PatioSeatingCover001",
+        "subCategoryid": "327",
+        "subsubCategoryid": "328",
+        "productWarranty": "1 Year"
+      }
+    ],
+    "user": {
+      "timeStamp": 1748450204832
+    }
+  },
+  {
+    "event": "adb_bread_crumb",
+    "other": {
+      "linkName": "Seating Covers"
+    },
+    "user": {
+      "timeStamp": 1748450215494
+    }
+  }
+]

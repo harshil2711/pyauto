@@ -1,0 +1,23 @@
+Page load
+Product View
+Breadcrumb
+product specification link
+Qty increase
+Click on the standard dimension
+Warranty checkbox uncheck
+Warranty checkbox check
+Hover on the question mark to open the tooltip
+Click fabric color
+Click on dimension field, clear it, then enter new value
+Personalize checkbox check
+Personalize checkbox uncheck
+Airbags checkbox check
+Airbags checkbox uncheck
+Product details section click
+Back to top button click
+Add to cart button click
+View cart button to be present and visible
+
+
+
+
