@@ -1,0 +1,156 @@
+[
+  {
+    "event": "adb_page_load",
+    "user": {
+      "loginStatus": "Not Logged In",
+      "gaClientid": "NAIDL",
+      "userType": "Guest User",
+      "userID": "NAIDL",
+      "defaultCountry": "US",
+      "walletBalance": "NAIDL",
+      "lastTransactionDate": "NAIDL",
+      "lastTransactionValue": "NAIDL",
+      "lifeTimePurchaseValue": "NAIDL",
+      "accountCreationDate": "NAIDL",
+      "totalNumberofOrder": "NAIDL",
+      "timeStamp": 1749757274751
+    },
+    "page": {
+      "pageName": "Home : Patio Furniture Covers : Seating Covers : Chair Covers : Dining Armchair Custom Covers",
+      "pageType": "product",
+      "pagePath": "https://www.coversandall.com/patio-furniture-covers/seating-covers/chair-covers/chair-cover-design-1-p",
+      "httpStatus": "200: OK"
+    }
+  },
+  {
+    "ecommerce": {
+      "currency": "USD"
+    },
+    "page": {
+      "pageName": "Home : Patio Furniture Covers : Seating Covers : Chair Covers : Dining Armchair Custom Covers",
+      "pageType": "product",
+      "pagePath": "https://www.coversandall.com/patio-furniture-covers/seating-covers/chair-covers/chair-cover-design-1-p",
+      "httpStatus": "200: OK"
+    },
+    "event": "adb_product_view",
+    "products": [
+      {
+        "ProductParentCategory": "Patio Furniture Covers",
+        "ProductSubCategory": "Seating Covers",
+        "ProductSubSubCategory": "Chair Covers",
+        "categoryID": "323",
+        "parentProductId": "3577",
+        "productCategory": "Patio Furniture Covers : Seating Covers : Chair Covers",
+        "productDiscountedprice": 20.05,
+        "productID": "PatioSeatingCover001",
+        "productFabric": "NAIDL",
+        "fabricColor": "Black",
+        "productName": "Dining Armchair Custom Covers",
+        "productImageURL": "https://cdn.coversandall.com/media/catalog/product/c/h/chair-covers_1.jpg?width=270&height=270&canvas=270,270&optimize=high&bg-color=255,255,255&fit=bounds",
+        "productOriginalPrice": 20.05,
+        "productPrice": 20.05,
+        "productTotalPrice": 20.05,
+        "productQuantity": 1,
+        "productRating": 4.6,
+        "productReviews": 375,
+        "productSKU": "PatioSeatingCover001",
+        "subCategoryid": "327",
+        "subsubCategoryid": "328",
+        "productWarranty": "1 Year"
+      }
+    ],
+    "user": {
+      "timeStamp": 1749757275194
+    }
+  },
+  {
+    "event": "adb_bread_crumb",
+    "other": {
+      "linkName": "Seating Covers"
+    },
+    "user": {
+      "timeStamp": 1749757311805
+    }
+  },
+  {
+    "event": "adb_pdp_product_specifications",
+    "user": {
+      "timeStamp": 1749757314641
+    },
+    "products": [
+      {
+        "productCategory": "Chair Covers",
+        "productName": "Dining Armchair Custom Covers",
+        "productID": "3577"
+      }
+    ]
+  },
+  {
+    "event": "adb_scroll_25%",
+    "user": {
+      "timeStamp": 1749757315139
+    }
+  },
+  {
+    "event": "adb_pdp_product_options_changed",
+    "products": [
+      {
+        "productCategory": "Patio Furniture Covers : Seating Covers : Chair Covers",
+        "productName": "Dining Armchair Custom Covers",
+        "productID": "PatioSeatingCover001",
+        "optionValue": "undefined : 1",
+        "option": "measurement_option_changed"
+      }
+    ],
+    "user": {
+      "timeStamp": 1749757317053
+    }
+  },
+  {
+    "event": "adb_product_standard_dimension",
+    "products": [
+      {
+        "productName": "Dining Armchair Custom Covers",
+        "productSKU": "PatioSeatingCover001",
+        "dimensionValue": "36Hx24Wx28TD"
+      }
+    ],
+    "user": {
+      "timeStamp": 1749757320529
+    }
+  },
+  {
+    "user": {
+      "userType": "Guest User",
+      "pageType": "Checkout",
+      "timeStamp": 1749757323954
+    },
+    "event": "adb_mouse_hover_on_question_mark"
+  },
+  {
+    "event": "adb_product_warranty_removed",
+    "products": [
+      {
+        "productWarranty": "1 Year",
+        "productCategory": "Patio Furniture Covers : Seating Covers : Chair Covers",
+        "productName": "Dining Armchair Custom Covers"
+      }
+    ],
+    "user": {
+      "timeStamp": 1749757326266
+    }
+  },
+  {
+    "event": "adb_product_warranty_selected",
+    "products": [
+      {
+        "productWarranty": "1 Year",
+        "productCategory": "Patio Furniture Covers : Seating Covers : Chair Covers",
+        "productName": "Dining Armchair Custom Covers"
+      }
+    ],
+    "user": {
+      "timeStamp": 1749757328610
+    }
+  }
+]
