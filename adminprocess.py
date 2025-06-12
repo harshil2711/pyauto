@@ -2,7 +2,8 @@ from playwright.async_api import async_playwright
 import asyncio
 import logging
 import time
-# Set up logging
+
+# Configure logging
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
@@ -10,8 +11,8 @@ async def run():
     async with async_playwright() as p:
         try:
             # Launch browser with context
-            browser = await p.chromium.launch(headless=False, channel="chrome", slow_mo=200)
-            context = await browser.new_context(viewport={"width": 1920, "height": 1080})
+            browser = await p.chromium.launch(headless=True, channel="chrome", slow_mo=200 ,args=["--start-maximized"])
+            context = await browser.new_context(no_viewport=True)
             page = await context.new_page()
             
             # Navigate to login page
@@ -62,37 +63,45 @@ async def run():
             await page.click("li[data-ui-id='menu-magento-sales-sales-order'] a span")
             await page.wait_for_load_state('networkidle')
 
-            #click on the keyword search
-            logger.info('click on the keyword search')
-            await page.wait_for_selector('#fulltext', state='visible',timeout=30000)
-            await page.fill('#fulltext', 'COV1016558658' )
-            await page.keyboard.press('Enter')
-            await page.wait_for_load_state('networkidle')
+            order_ids = ["COV1016558648" , "CCA1015666577"]
 
-            #click on veiw order
-            logger.info('click on veiw order')
-            await page.wait_for_selector('a.action-menu-item', state='visible',timeout=30000)
-            await page.click('a.action-menu-item')
-            await page.wait_for_load_state('networkidle')
+            for i in order_ids:
+                #click on the keyword search
+                logger.info('click on the keyword search')
+                await page.wait_for_selector('#fulltext', state='visible',timeout=30000)
+                await page.fill('#fulltext', i )
+                await page.keyboard.press('Enter')
+                await page.wait_for_load_state('networkidle')
 
-            #Navigate to the status dropdown.
-            logger.info('Navigate to the status dropdown.')
-            await page.wait_for_selector('#history_status', state='visible', timeout=30000)
-            await page.evaluate('document.querySelector("#history_status").scrollIntoView({behavior: "smooth", block: "center"})')
+                #click on veiw order
+                logger.info('click on veiw order')
+                await page.wait_for_selector('a.action-menu-item', state='visible',timeout=30000)
+                await page.click('a.action-menu-item')
+                await page.wait_for_load_state('networkidle')
 
-            # Select status from the dropdown
-            await page.wait_for_selector('#history_status', state='visible', timeout=30000)
-            await page.click('#history_status')
-            await page.keyboard.type('T')
-            await page.keyboard.press('Enter')
-            logger.info('Selected status by typing T and pressing Enter')
-            await page.wait_for_load_state('networkidle')
-            
-            #Click on the submit button.
-            logger.info('Click on the submit button.')
-            await page.wait_for_selector('button[title="Submit Comment"]', state='visible', timeout=30000)
-            await page.click('button[title="Submit Comment"]')
-            await page.wait_for_load_state('networkidle')
+                #Navigate to the status dropdown.
+                logger.info('Navigate to the status dropdown.')
+                await page.wait_for_selector('#history_status', state='visible', timeout=30000)
+                await page.evaluate('document.querySelector("#history_status").scrollIntoView({behavior: "smooth", block: "center"})')
+
+                # Select status from the dropdown
+                await page.wait_for_selector('#history_status', state='visible', timeout=30000)
+                await page.click('#history_status')
+                await page.keyboard.type('T')
+                await page.keyboard.press('Enter')
+                logger.info('Selected status by typing T and pressing Enter')
+                await page.wait_for_load_state('networkidle')
+                
+                #Click on the submit button.
+                logger.info('Click on the submit button.')
+                await page.wait_for_selector('button[title="Submit Comment"]', state='visible', timeout=30000)
+                await page.click('button[title="Submit Comment"]')
+                await page.wait_for_load_state('networkidle')
+
+                # Click browser back button
+                logger.info('Navigating back to orders page...')
+                await page.evaluate('window.history.back()')
+                await page.wait_for_load_state('networkidle')
 
             time.sleep(20)
         except Exception as e:
