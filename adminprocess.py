@@ -11,13 +11,13 @@ async def run():
     async with async_playwright() as p:
         try:
             # Launch browser with context
-            browser = await p.chromium.launch(headless=True, channel="chrome", slow_mo=200 ,args=["--start-maximized"])
+            browser = await p.chromium.launch(headless=False, channel="chrome", slow_mo=200 ,args=["--start-maximized"])
             context = await browser.new_context(no_viewport=True)
             page = await context.new_page()
             
             # Navigate to login page
             logger.info("Navigating to login page...")
-            await page.goto("https://alphaprints.in/covadmin", wait_until="networkidle")
+            await page.goto("https://www.coversandall.com/9pkg678a2p9q/admin", wait_until="networkidle")
             
             # Click on the login button and wait for popup
             logger.info("Clicking login button...")
@@ -63,7 +63,7 @@ async def run():
             await page.click("li[data-ui-id='menu-magento-sales-sales-order'] a span")
             await page.wait_for_load_state('networkidle')
 
-            order_ids = ["COV1016558648" , "CCA1015666577"]
+            order_ids = ["COV1016564131"]
 
             for i in order_ids:
                 #click on the keyword search

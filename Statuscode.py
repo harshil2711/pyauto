@@ -39,7 +39,7 @@ with open('network_responses.csv', 'a', newline='') as csvfile:
     ]
 
     # Read URLs from CSV
-    with open('C:\\Users\\harshil.shukla\\Downloads\\urls.csv', 'r') as url_file:
+    with open('C:\\Users\\harshil.shukla\\Downloads\\other.csv', 'r') as url_file:
         url_reader = csv.DictReader(url_file)
         urls = [row['Link'] for row in url_reader]
     

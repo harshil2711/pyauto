@@ -6,6 +6,8 @@ from email.mime.multipart import MIMEMultipart
 from email.message import EmailMessage
 from email.mime.text import MIMEText
 from email.mime.application import MIMEApplication
+import datetime
+import os
 
 
 adb_events = []
@@ -68,10 +70,11 @@ async def capture_events_with_actions():
     await asyncio.sleep(25)
 
     # Save all captured events
-    with open('adb_events_with_actions.json', 'w') as f:
+    date = datetime.datetime.now().strftime('%Y-%m-%d')
+    filename = f'adb_events_{date}.json'
+    with open(filename, 'w') as f:
         json.dump(adb_events, f, indent=2)
-        print(f"✅ Saved {len(adb_events)} adb_* events to adb_events_with_actions.json")
-
+        print(f"✅ Saved {len(adb_events)} adb_* events to {filename}")
 
     await browser.close()
 
@@ -80,14 +83,14 @@ asyncio.run(capture_events_with_actions())
 
 
 #Sending email
-subject = "Adobe event"
+subject = "Adobe event results"
 body = "Please find the adobe events results below."
 sender_email = "cp.harshil@gmail.com"
 recipient_email = "harshil.shukla@commercepundit.com"
 sender_password = "culo jpqg pmtr iafc"
 smtp_server = 'smtp.gmail.com'
 smtp_port = 465
-path_to_file = 'adb_events_with_actions.json'
+path_to_file = f'adb_events_{datetime.datetime.now().strftime("%Y-%m-%d")}.json'
 
 # MIMEMultipart() creates a container for an email message that can hold
 # different parts, like text and attachments and in next line we are
@@ -100,9 +103,9 @@ body_part = MIMEText(body)
 message.attach(body_part)
 
 # section to attach file
-with open(path_to_file,'rb') as file:
+with open(path_to_file,'r') as file:
     # Attach the file with filename to the email
-    message.attach(MIMEApplication(file.read(), Name="adb_events_with_actions.json"))
+    message.attach(MIMEApplication(file.read(), Name=os.path.basename(path_to_file)))
 # Add error handling for email sending
 try:
     # Create secure connection with server and send email
