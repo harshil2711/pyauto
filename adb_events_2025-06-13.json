@@ -13,7 +13,11 @@
       "lifeTimePurchaseValue": "NAIDL",
       "accountCreationDate": "NAIDL",
       "totalNumberofOrder": "NAIDL",
+<<<<<<< HEAD
       "timeStamp": 1749820254726
+=======
+      "timeStamp": 1749757274751
+>>>>>>> cd907bb03a65e318c0bb0d78f78fad0ecc3d23ef
     },
     "page": {
       "pageName": "Home : Patio Furniture Covers : Seating Covers : Chair Covers : Dining Armchair Custom Covers",
@@ -60,7 +64,11 @@
       }
     ],
     "user": {
+<<<<<<< HEAD
       "timeStamp": 1749820255398
+=======
+      "timeStamp": 1749757275194
+>>>>>>> cd907bb03a65e318c0bb0d78f78fad0ecc3d23ef
     }
   },
   {
@@ -69,13 +77,21 @@
       "linkName": "Seating Covers"
     },
     "user": {
+<<<<<<< HEAD
       "timeStamp": 1749820270142
+=======
+      "timeStamp": 1749757311805
+>>>>>>> cd907bb03a65e318c0bb0d78f78fad0ecc3d23ef
     }
   },
   {
     "event": "adb_pdp_product_specifications",
     "user": {
+<<<<<<< HEAD
       "timeStamp": 1749820272383
+=======
+      "timeStamp": 1749757314641
+>>>>>>> cd907bb03a65e318c0bb0d78f78fad0ecc3d23ef
     },
     "products": [
       {
@@ -86,6 +102,15 @@
     ]
   },
   {
+<<<<<<< HEAD
+=======
+    "event": "adb_scroll_25%",
+    "user": {
+      "timeStamp": 1749757315139
+    }
+  },
+  {
+>>>>>>> cd907bb03a65e318c0bb0d78f78fad0ecc3d23ef
     "event": "adb_pdp_product_options_changed",
     "products": [
       {
@@ -97,7 +122,11 @@
       }
     ],
     "user": {
+<<<<<<< HEAD
       "timeStamp": 1749820274520
+=======
+      "timeStamp": 1749757317053
+>>>>>>> cd907bb03a65e318c0bb0d78f78fad0ecc3d23ef
     }
   },
   {
@@ -110,14 +139,22 @@
       }
     ],
     "user": {
+<<<<<<< HEAD
       "timeStamp": 1749820277848
+=======
+      "timeStamp": 1749757320529
+>>>>>>> cd907bb03a65e318c0bb0d78f78fad0ecc3d23ef
     }
   },
   {
     "user": {
       "userType": "Guest User",
       "pageType": "Checkout",
+<<<<<<< HEAD
       "timeStamp": 1749820281062
+=======
+      "timeStamp": 1749757323954
+>>>>>>> cd907bb03a65e318c0bb0d78f78fad0ecc3d23ef
     },
     "event": "adb_mouse_hover_on_question_mark"
   },
@@ -131,7 +168,11 @@
       }
     ],
     "user": {
+<<<<<<< HEAD
       "timeStamp": 1749820283154
+=======
+      "timeStamp": 1749757326266
+>>>>>>> cd907bb03a65e318c0bb0d78f78fad0ecc3d23ef
     }
   },
   {
@@ -144,6 +185,7 @@
       }
     ],
     "user": {
+<<<<<<< HEAD
       "timeStamp": 1749820285250
     }
   },
@@ -1698,6 +1740,9 @@
     "wallet": {
       "walletDiscount": "0.00",
       "walletBalance": "3596.83"
+=======
+      "timeStamp": 1749757328610
+>>>>>>> cd907bb03a65e318c0bb0d78f78fad0ecc3d23ef
     }
   }
 ]
