@@ -667,14 +667,6 @@ async def capture_events_with_actions():
         except Exception as e:
             print(f"❌ Error uploading file: {e}")
 
-        try:
-            # Click on place order button.  
-            element = await page.waitForSelector('#place-order-trigger', {'visible': True, 'timeout': 10000})
-            await page.evaluate('(element) => { element.scrollIntoView({ behavior: "smooth", block: "center" }); }', element)
-            await asyncio.sleep(2)  # Small delay after scroll
-            await element.click()
-        except Exception as e:
-            print(f"❌ Error clicking place order button: {e}")
         
         await asyncio.sleep(15)
 

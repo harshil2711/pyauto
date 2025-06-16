@@ -1,0 +1,1137 @@
+[
+  {
+    "event": "adb_page_load",
+    "user": {
+      "loginStatus": "Not Logged In",
+      "gaClientid": "NAIDL",
+      "userType": "Guest User",
+      "userID": "NAIDL",
+      "defaultCountry": "US",
+      "walletBalance": "NAIDL",
+      "lastTransactionDate": "NAIDL",
+      "lastTransactionValue": "NAIDL",
+      "lifeTimePurchaseValue": "NAIDL",
+      "accountCreationDate": "NAIDL",
+      "totalNumberofOrder": "NAIDL",
+      "timeStamp": 1749826972588
+    },
+    "page": {
+      "pageName": "Home : Patio Furniture Covers : Seating Covers : Chair Covers : Dining Armchair Custom Covers",
+      "pageType": "product",
+      "pagePath": "https://www.coversandall.com/patio-furniture-covers/seating-covers/chair-covers/chair-cover-design-1-p",
+      "httpStatus": "200: OK"
+    }
+  },
+  {
+    "ecommerce": {
+      "currency": "USD"
+    },
+    "page": {
+      "pageName": "Home : Patio Furniture Covers : Seating Covers : Chair Covers : Dining Armchair Custom Covers",
+      "pageType": "product",
+      "pagePath": "https://www.coversandall.com/patio-furniture-covers/seating-covers/chair-covers/chair-cover-design-1-p",
+      "httpStatus": "200: OK"
+    },
+    "event": "adb_product_view",
+    "products": [
+      {
+        "ProductParentCategory": "Patio Furniture Covers",
+        "ProductSubCategory": "Seating Covers",
+        "ProductSubSubCategory": "Chair Covers",
+        "categoryID": "323",
+        "parentProductId": "3577",
+        "productCategory": "Patio Furniture Covers : Seating Covers : Chair Covers",
+        "productDiscountedprice": 20.05,
+        "productID": "PatioSeatingCover001",
+        "productFabric": "NAIDL",
+        "fabricColor": "Black",
+        "productName": "Dining Armchair Custom Covers",
+        "productImageURL": "https://cdn.coversandall.com/media/catalog/product/c/h/chair-covers_1.jpg?width=270&height=270&canvas=270,270&optimize=high&bg-color=255,255,255&fit=bounds",
+        "productOriginalPrice": 20.05,
+        "productPrice": 20.05,
+        "productTotalPrice": 20.05,
+        "productQuantity": 1,
+        "productRating": 4.6,
+        "productReviews": 375,
+        "productSKU": "PatioSeatingCover001",
+        "subCategoryid": "327",
+        "subsubCategoryid": "328",
+        "productWarranty": "1 Year"
+      }
+    ],
+    "user": {
+      "timeStamp": 1749826972852
+    }
+  },
+  {
+    "event": "adb_bread_crumb",
+    "other": {
+      "linkName": "Seating Covers"
+    },
+    "user": {
+      "timeStamp": 1749826985765
+    }
+  },
+  {
+    "event": "adb_pdp_product_specifications",
+    "user": {
+      "timeStamp": 1749826988083
+    },
+    "products": [
+      {
+        "productCategory": "Chair Covers",
+        "productName": "Dining Armchair Custom Covers",
+        "productID": "3577"
+      }
+    ]
+  },
+  {
+    "event": "adb_pdp_product_options_changed",
+    "products": [
+      {
+        "productCategory": "Patio Furniture Covers : Seating Covers : Chair Covers",
+        "productName": "Dining Armchair Custom Covers",
+        "productID": "PatioSeatingCover001",
+        "optionValue": "undefined : 1",
+        "option": "measurement_option_changed"
+      }
+    ],
+    "user": {
+      "timeStamp": 1749826990229
+    }
+  },
+  {
+    "event": "adb_product_standard_dimension",
+    "products": [
+      {
+        "productName": "Dining Armchair Custom Covers",
+        "productSKU": "PatioSeatingCover001",
+        "dimensionValue": "36Hx24Wx28TD"
+      }
+    ],
+    "user": {
+      "timeStamp": 1749826993464
+    }
+  },
+  {
+    "user": {
+      "userType": "Guest User",
+      "pageType": "Checkout",
+      "timeStamp": 1749826996598
+    },
+    "event": "adb_mouse_hover_on_question_mark"
+  },
+  {
+    "event": "adb_product_warranty_removed",
+    "products": [
+      {
+        "productWarranty": "1 Year",
+        "productCategory": "Patio Furniture Covers : Seating Covers : Chair Covers",
+        "productName": "Dining Armchair Custom Covers"
+      }
+    ],
+    "user": {
+      "timeStamp": 1749826998686
+    }
+  },
+  {
+    "event": "adb_product_warranty_selected",
+    "products": [
+      {
+        "productWarranty": "1 Year",
+        "productCategory": "Patio Furniture Covers : Seating Covers : Chair Covers",
+        "productName": "Dining Armchair Custom Covers"
+      }
+    ],
+    "user": {
+      "timeStamp": 1749827000807
+    }
+  },
+  {
+    "event": "adb_pdp_product_options_changed",
+    "products": [
+      {
+        "productCategory": "Patio Furniture Covers : Seating Covers : Chair Covers",
+        "productName": "Dining Armchair Custom Covers",
+        "productID": "PatioSeatingCover001",
+        "optionValue": "NAIDL",
+        "option": "fabric_option_changed"
+      }
+    ],
+    "user": {
+      "timeStamp": 1749827002977
+    }
+  },
+  {
+    "event": "adb_product_standard_dimension",
+    "products": [
+      {
+        "productName": "Dining Armchair Custom Covers",
+        "productSKU": "PatioSeatingCover001",
+        "dimensionValue": "custom"
+      }
+    ],
+    "user": {
+      "timeStamp": 1749827006286
+    }
+  },
+  {
+    "event": "adb_pdp_product_options_changed",
+    "products": [
+      {
+        "productCategory": "Patio Furniture Covers : Seating Covers : Chair Covers",
+        "productName": "Dining Armchair Custom Covers",
+        "productID": "PatioSeatingCover001",
+        "optionValue": "36 : 12",
+        "option": "measurement_option_changed"
+      }
+    ],
+    "user": {
+      "timeStamp": 1749827008438
+    }
+  },
+  {
+    "event": "adb_pdp_product_options_changed",
+    "products": [
+      {
+        "productCategory": "Patio Furniture Covers : Seating Covers : Chair Covers",
+        "productName": "Dining Armchair Custom Covers",
+        "productID": "PatioSeatingCover001",
+        "optionValue": "Air Bags",
+        "option": "accessories_products_changed"
+      }
+    ],
+    "user": {
+      "timeStamp": 1749827008670
+    }
+  },
+  {
+    "event": "adb_pdp_product_options_changed",
+    "products": [
+      {
+        "productCategory": "Patio Furniture Covers : Seating Covers : Chair Covers",
+        "productName": "Dining Armchair Custom Covers",
+        "productID": "PatioSeatingCover001",
+        "optionValue": "Air Bags",
+        "option": "accessories_products_changed"
+      }
+    ],
+    "user": {
+      "timeStamp": 1749827010883
+    }
+  },
+  {
+    "event": "adb_product_page_tab",
+    "products": [
+      {
+        "productCategory": "Patio Furniture Covers : Seating Covers : Chair Covers",
+        "productName": "Dining Armchair Custom Covers"
+      }
+    ],
+    "other": {
+      "productPagetabs": "Tie downs / Grommets"
+    },
+    "user": {
+      "timeStamp": 1749827013077
+    }
+  },
+  {
+    "event": "adb_scroll_25%",
+    "user": {
+      "timeStamp": 1749827015349
+    }
+  },
+  {
+    "ecommerce": {
+      "currency": "USD",
+      "cartValue": 58.22
+    },
+    "event": "adb_add_to_cart",
+    "products": [
+      {
+        "ProductParentCategory": "Patio Furniture Covers",
+        "ProductSubCategory": "Seating Covers",
+        "ProductSubSubCategory": "Chair Covers",
+        "categoryID": "323",
+        "parentProductId": "3577",
+        "productCategory": "Patio Furniture Covers : Seating Covers : Chair Covers",
+        "productDiscountedprice": "30.64",
+        "productID": "PatioSeatingCover001",
+        "productFabric": "Ripstop",
+        "fabricColor": "Beige",
+        "productName": "Dining Armchair Custom Covers",
+        "productOriginalPrice": "30.64",
+        "productPrice": "30.64",
+        "productQuantity": "2",
+        "productRating": 4.6,
+        "productReviews": 375,
+        "productSKU": "PatioSeatingCover001",
+        "productTotalPrice": "58.22",
+        "subCategoryid": "327",
+        "subsubCategoryid": "328"
+      }
+    ],
+    "user": {
+      "timeStamp": 1749827017272
+    }
+  },
+  {
+    "event": "adb_my_cart",
+    "user": {
+      "timeStamp": 1749827018891
+    }
+  },
+  {
+    "event": "adb_page_load",
+    "user": {
+      "loginStatus": "Not Logged In",
+      "gaClientid": "NAIDL",
+      "userType": "Guest User",
+      "userID": "NAIDL",
+      "defaultCountry": "US",
+      "walletBalance": "NAIDL",
+      "lastTransactionDate": "NAIDL",
+      "lastTransactionValue": "NAIDL",
+      "lifeTimePurchaseValue": "NAIDL",
+      "accountCreationDate": "NAIDL",
+      "totalNumberofOrder": "NAIDL",
+      "timeStamp": 1749827031477
+    },
+    "page": {
+      "pageName": "Home : Cart",
+      "pageType": "cart",
+      "pagePath": "https://www.coversandall.com/checkout/cart/",
+      "httpStatus": "200: OK"
+    }
+  },
+  {
+    "ecommerce": {
+      "cartID": "4434567",
+      "cartValue": "84.20",
+      "currency": "USD",
+      "couponcode": "NAIDL",
+      "deliveryavailable": "NAIDL",
+      "Deliverydate": "NAIDL",
+      "discount": "0.00",
+      "revenueCheckout": "84.20",
+      "courierCharges": "0.00",
+      "shippingCost": "0.00",
+      "shippingmethod": "NAIDL",
+      "subTotal": "58.22",
+      "totalQty": 2
+    },
+    "event": "adb_cart_view",
+    "products": [
+      {
+        "ProductParentCategory": "Patio Furniture Covers",
+        "ProductSubCategory": "Seating Covers",
+        "ProductSubSubCategory": "Chair Covers",
+        "categoryID": "323",
+        "parentProductId": "3577",
+        "productCategory": "Patio Furniture Covers : Seating Covers : Chair Covers",
+        "productDiscountedprice": "29.11",
+        "productID": "RipstopBeige1548",
+        "productFabric": "Ripstop",
+        "fabricColor": "Beige",
+        "productName": "Dining Armchair Custom Covers",
+        "productOriginalPrice": "29.11",
+        "productPrice": "29.11",
+        "productQuantity": 2,
+        "productRating": 4.6,
+        "productReviews": 375,
+        "productSKU": "RipstopBeige1548",
+        "productTotalPrice": "58.22",
+        "stockAvailable": "YES",
+        "subCategoryid": "327",
+        "subsubCategoryid": "328",
+        "productWarranty": "1 Year"
+      }
+    ],
+    "wallet": {
+      "walletDiscount": "0.00"
+    },
+    "user": {
+      "timeStamp": 1749827035771
+    }
+  },
+  {
+    "event": "adb_continue_shopping_no",
+    "user": {
+      "timeStamp": 1749827050640
+    }
+  },
+  {
+    "event": "adb_cart_delete_popup_no",
+    "user": {
+      "timeStamp": 1749827060843
+    }
+  },
+  {
+    "event": "adb_cart_availble_offers",
+    "ecommerce": {
+      "cartID": "4434567"
+    },
+    "wallet": {
+      "walletDiscount": "0.00"
+    },
+    "user": {
+      "timeStamp": 1749827066635
+    },
+    "products": [
+      {
+        "productCategory": "Patio Furniture Covers : Seating Covers : Chair Covers",
+        "productName": "Dining Armchair Custom Covers",
+        "productFabric": "Ripstop",
+        "fabricColor": "Beige",
+        "productID": "RipstopBeige1548",
+        "productQuantity": 2,
+        "productPrice": "29.11"
+      }
+    ]
+  },
+  {
+    "ecommerce": {
+      "cartID": "4434567",
+      "cartValue": "84.20",
+      "currency": "USD",
+      "couponcode": "",
+      "deliveryavailable": "NAIDL",
+      "Deliverydate": "NAIDL",
+      "discountinPercentage": "0.00",
+      "cartDiscountcode": "",
+      "cartDiscount": "0.00",
+      "discount": "0.00",
+      "revenueCheckout": "84.20",
+      "shippingCost": "NAIDL",
+      "shippingmethod": "",
+      "subTotal": "58.22",
+      "totalQty": 2
+    },
+    "wallet": {
+      "walletDiscount": "0.00"
+    },
+    "user": {
+      "timeStamp": 1749827077898,
+      "userType": "Guest User",
+      "pageType": "Checkout"
+    },
+    "order": {
+      "shippmentDays": 0
+    },
+    "event": "adb_cart_coupon_code_error",
+    "products": [
+      {
+        "ProductParentCategory": "Patio Furniture Covers",
+        "ProductSubCategory": "Seating Covers",
+        "ProductSubSubCategory": "Chair Covers",
+        "categoryID": "323",
+        "parentProductId": "3577",
+        "productCategory": "Patio Furniture Covers : Seating Covers : Chair Covers",
+        "productDiscountedprice": "29.11",
+        "productID": "RipstopBeige1548",
+        "productFabric": "Ripstop",
+        "fabricColor": "Beige",
+        "productName": "Dining Armchair Custom Covers",
+        "productOriginalPrice": "29.11",
+        "productPrice": "29.11",
+        "productQuantity": 2,
+        "productRating": 4.6,
+        "productReviews": 375,
+        "productSKU": "RipstopBeige1548",
+        "productTotalPrice": "58.22",
+        "stockAvailable": "YES",
+        "subCategoryid": "327",
+        "subsubCategoryid": "328"
+      }
+    ],
+    "other": {
+      "errorMessage": "Coupon code is not valid, use other code"
+    }
+  },
+  {
+    "event": "adb_cart_apply_coupon_availble_offers",
+    "ecommerce": {
+      "cartID": "4434567",
+      "couponcode": "DAD",
+      "couponcodeStatus": "success"
+    },
+    "wallet": {
+      "walletDiscount": "0.00"
+    },
+    "user": {
+      "timeStamp": 1749827093227
+    },
+    "products": []
+  },
+  {
+    "event": "adb_remove_coupon",
+    "ecommerce": {
+      "cartValue": "84.20",
+      "currency": "USD",
+      "couponcode": "DAD",
+      "discount": "0.00",
+      "revenueCheckout": "84.20",
+      "courierCharges": "0.00",
+      "shippingCost": "0.00",
+      "shippingmethod": "NAIDL",
+      "subTotal": "58.22",
+      "totalQty": 2,
+      "cartID": "4434567",
+      "couponcodeStatus": "success"
+    },
+    "wallet": {
+      "walletDiscount": "0.00"
+    },
+    "user": {
+      "timeStamp": 1749827108085
+    },
+    "products": [
+      {
+        "ProductParentCategory": "NAIDL",
+        "ProductSubCategory": "NAIDL",
+        "ProductSubSubCategory": "NAIDL",
+        "categoryID": "NAIDL",
+        "parentProductId": "61112",
+        "productCategory": "NAIDL",
+        "productDiscountedprice": "29.11",
+        "productID": "RipstopBeige1548",
+        "productFabric": "Ripstop",
+        "fabricColor": "Beige",
+        "productName": "Dining Armchair Custom Covers",
+        "productOriginalPrice": "29.11",
+        "productPrice": "29.11",
+        "productQuantity": "2.00",
+        "productRating": 0,
+        "productReviews": 0,
+        "productSKU": "RipstopBeige1548",
+        "productTotalPrice": "58.22",
+        "stockAvailable": "YES",
+        "subCategoryid": "NAIDL",
+        "subsubCategoryid": "NAIDL"
+      }
+    ]
+  },
+  {
+    "event": "adb_cart_shipping_mode",
+    "ecommerce": {
+      "cartID": "4434567",
+      "shippingmethod": "Priority",
+      "couponcode": "NAIDL"
+    },
+    "wallet": {
+      "walletDiscount": "0.00"
+    },
+    "user": {
+      "timeStamp": 1749827121213
+    },
+    "products": [
+      {
+        "productCategory": "Patio Furniture Covers : Seating Covers : Chair Covers",
+        "productName": "Dining Armchair Custom Covers",
+        "productFabric": "Ripstop",
+        "fabricColor": "Beige",
+        "productID": "RipstopBeige1548",
+        "productQuantity": 2,
+        "productPrice": "29.11"
+      }
+    ]
+  },
+  {
+    "event": "adb_product_warranty_removed",
+    "products": [
+      {
+        "productWarranty": "1 Year",
+        "productCategory": "Patio Furniture Covers : Seating Covers : Chair Covers",
+        "productName": "Dining Armchair Custom Covers"
+      }
+    ],
+    "user": {
+      "timeStamp": 1749827125831
+    }
+  },
+  {
+    "event": "adb_product_warranty_selected",
+    "products": [
+      {
+        "productWarranty": "1 Year",
+        "productCategory": "Patio Furniture Covers : Seating Covers : Chair Covers",
+        "productName": "Dining Armchair Custom Covers"
+      }
+    ],
+    "user": {
+      "timeStamp": 1749827133395
+    }
+  },
+  {
+    "event": "adb_cart_amaazon_pay",
+    "ecommerce": {
+      "cartID": "4434567"
+    },
+    "wallet": {
+      "walletDiscount": "0.00"
+    },
+    "user": {
+      "timeStamp": 1749827144317
+    },
+    "products": [
+      {
+        "productCategory": "Patio Furniture Covers : Seating Covers : Chair Covers",
+        "productName": "Dining Armchair Custom Covers",
+        "productFabric": "Ripstop",
+        "fabricColor": "Beige",
+        "productID": "RipstopBeige1548",
+        "productQuantity": 2,
+        "productPrice": "29.11"
+      }
+    ]
+  },
+  {
+    "ecommerce": {
+      "cartID": "4434567",
+      "cartValue": "84.20",
+      "currency": "USD",
+      "couponcode": "NAIDL",
+      "deliveryavailable": "NAIDL",
+      "Deliverydate": "NAIDL",
+      "discountinPercentage": "0.00",
+      "cartDiscountcode": "NAIDL",
+      "cartDiscount": "0.00",
+      "discount": "0.00",
+      "revenueCheckout": "84.20",
+      "shippingCost": "0.00",
+      "shippingmethod": "NAIDL",
+      "subTotal": "58.22",
+      "totalQty": 2
+    },
+    "wallet": {
+      "walletDiscount": "0.00"
+    },
+    "user": {
+      "timeStamp": 1749827151008,
+      "userType": "Guest User",
+      "pageType": "Checkout"
+    },
+    "event": "adb_cart_link_pay",
+    "products": [
+      {
+        "ProductParentCategory": "Patio Furniture Covers",
+        "ProductSubCategory": "Seating Covers",
+        "ProductSubSubCategory": "Chair Covers",
+        "categoryID": "323",
+        "parentProductId": "3577",
+        "productCategory": "Patio Furniture Covers : Seating Covers : Chair Covers",
+        "productDiscountedprice": "29.11",
+        "productID": "RipstopBeige1548",
+        "productFabric": "Ripstop",
+        "fabricColor": "Beige",
+        "productName": "Dining Armchair Custom Covers",
+        "productOriginalPrice": "29.11",
+        "productPrice": "29.11",
+        "productQuantity": 2,
+        "productRating": 4.6,
+        "productReviews": 375,
+        "productSKU": "RipstopBeige1548",
+        "productTotalPrice": "58.22",
+        "stockAvailable": "YES",
+        "subCategoryid": "327",
+        "subsubCategoryid": "328"
+      }
+    ]
+  },
+  {
+    "ecommerce": {
+      "cartID": "4434567",
+      "cartValue": "84.20",
+      "currency": "USD",
+      "couponcode": "NAIDL",
+      "deliveryavailable": "NAIDL",
+      "Deliverydate": "NAIDL",
+      "discount": "0.00",
+      "revenueCheckout": "84.20",
+      "courierCharges": "0.00",
+      "shippingCost": "0.00",
+      "shippingmethod": "NAIDL",
+      "subTotal": "58.22",
+      "totalQty": 2
+    },
+    "event": "adb_cart_checkout",
+    "products": [
+      {
+        "ProductParentCategory": "Patio Furniture Covers",
+        "ProductSubCategory": "Seating Covers",
+        "ProductSubSubCategory": "Chair Covers",
+        "categoryID": "323",
+        "parentProductId": "3577",
+        "productCategory": "Patio Furniture Covers : Seating Covers : Chair Covers",
+        "productDiscountedprice": "29.11",
+        "productID": "RipstopBeige1548",
+        "productFabric": "Ripstop",
+        "fabricColor": "Beige",
+        "productName": "Dining Armchair Custom Covers",
+        "productOriginalPrice": "29.11",
+        "productPrice": "29.11",
+        "productQuantity": 2,
+        "productRating": 4.6,
+        "productReviews": 375,
+        "productSKU": "RipstopBeige1548",
+        "productTotalPrice": "58.22",
+        "stockAvailable": "YES",
+        "subCategoryid": "327",
+        "subsubCategoryid": "328",
+        "productWarranty": "1 Year"
+      }
+    ],
+    "wallet": {
+      "walletDiscount": "0.00"
+    },
+    "user": {
+      "timeStamp": 1749827165311
+    }
+  },
+  {
+    "event": "adb_page_load",
+    "user": {
+      "loginStatus": "Not Logged In",
+      "gaClientid": "NAIDL",
+      "userType": "Guest User",
+      "userID": "NAIDL",
+      "defaultCountry": "US",
+      "walletBalance": "NAIDL",
+      "lastTransactionDate": "NAIDL",
+      "lastTransactionValue": "NAIDL",
+      "lifeTimePurchaseValue": "NAIDL",
+      "accountCreationDate": "NAIDL",
+      "totalNumberofOrder": "NAIDL",
+      "timeStamp": 1749827169772
+    },
+    "page": {
+      "pageName": "Home : Checkout",
+      "pageType": "checkout",
+      "pagePath": "https://www.coversandall.com/checkout/",
+      "httpStatus": "200: OK"
+    }
+  },
+  {
+    "ecommerce": {
+      "cartID": "4434567",
+      "cartValue": "84.20",
+      "currency": "USD",
+      "couponcode": "NAIDL",
+      "deliveryavailable": "NAIDL",
+      "Deliverydate": "NAIDL",
+      "discountinPercentage": "0.00",
+      "cartDiscountcode": "NAIDL",
+      "cartDiscount": "0.00",
+      "discount": "0.00",
+      "revenueCheckout": "84.20",
+      "shippingCost": "0.00",
+      "shippingmethod": "NAIDL",
+      "subTotal": "58.22",
+      "totalQty": 2
+    },
+    "wallet": {
+      "walletDiscount": "0.00"
+    },
+    "user": {
+      "userType": "Guest User",
+      "pageType": "Checkout",
+      "timeStamp": 1749827170664
+    },
+    "event": "adb_checkout",
+    "products": [
+      {
+        "ProductParentCategory": "Patio Furniture Covers",
+        "ProductSubCategory": "Seating Covers",
+        "ProductSubSubCategory": "Chair Covers",
+        "categoryID": "323",
+        "parentProductId": "3577",
+        "productCategory": "Patio Furniture Covers : Seating Covers : Chair Covers",
+        "productDiscountedprice": "29.11",
+        "productID": "RipstopBeige1548",
+        "productFabric": "Ripstop",
+        "fabricColor": "Beige",
+        "productName": "Dining Armchair Custom Covers",
+        "productOriginalPrice": "29.11",
+        "productPrice": "29.11",
+        "productQuantity": 2,
+        "productRating": 4.6,
+        "productReviews": 375,
+        "productSKU": "RipstopBeige1548",
+        "productTotalPrice": "58.22",
+        "stockAvailable": "YES",
+        "subCategoryid": "327",
+        "subsubCategoryid": "328",
+        "productWarranty": "1 Year"
+      }
+    ]
+  },
+  {
+    "event": "adb_scroll_25%",
+    "user": {
+      "timeStamp": 1749827173334
+    }
+  },
+  {
+    "event": "adb_scroll_90%",
+    "user": {
+      "timeStamp": 1749827173855
+    }
+  },
+  {
+    "event": "adb_scroll_75%",
+    "user": {
+      "timeStamp": 1749827180452
+    }
+  },
+  {
+    "event": "adb_scroll_25%",
+    "user": {
+      "timeStamp": 1749827180702
+    }
+  },
+  {
+    "ecommerce": {
+      "cartID": "4434567",
+      "cartValue": "84.20",
+      "currency": "USD",
+      "couponcode": "NAIDL",
+      "deliveryavailable": "NAIDL",
+      "Deliverydate": "NAIDL",
+      "discountinPercentage": "0.00",
+      "cartDiscountcode": "NAIDL",
+      "cartDiscount": "0.00",
+      "discount": "0.00",
+      "revenueCheckout": "84.20",
+      "shippingCost": "0.00",
+      "shippingmethod": "NAIDL",
+      "subTotal": "58.22",
+      "totalQty": 2
+    },
+    "wallet": {
+      "walletDiscount": "0.00"
+    },
+    "user": {
+      "userType": "Guest User",
+      "pageType": "Checkout",
+      "timeStamp": 1749827189546
+    },
+    "event": "adb_shipping_&_billing_first_name",
+    "products": [
+      {
+        "ProductParentCategory": "Patio Furniture Covers",
+        "ProductSubCategory": "Seating Covers",
+        "ProductSubSubCategory": "Chair Covers",
+        "categoryID": "323",
+        "parentProductId": "3577",
+        "productCategory": "Patio Furniture Covers : Seating Covers : Chair Covers",
+        "productDiscountedprice": "29.11",
+        "productID": "RipstopBeige1548",
+        "productFabric": "Ripstop",
+        "fabricColor": "Beige",
+        "productName": "Dining Armchair Custom Covers",
+        "productOriginalPrice": "29.11",
+        "productPrice": "29.11",
+        "productQuantity": 2,
+        "productRating": 4.6,
+        "productReviews": 375,
+        "productSKU": "RipstopBeige1548",
+        "productTotalPrice": "58.22",
+        "stockAvailable": "YES",
+        "subCategoryid": "327",
+        "subsubCategoryid": "328",
+        "productWarranty": "1 Year"
+      }
+    ]
+  },
+  {
+    "ecommerce": {
+      "cartID": "4434567",
+      "cartValue": "84.20",
+      "currency": "USD",
+      "couponcode": "NAIDL",
+      "deliveryavailable": "NAIDL",
+      "Deliverydate": "NAIDL",
+      "discountinPercentage": "0.00",
+      "cartDiscountcode": "NAIDL",
+      "cartDiscount": "0.00",
+      "discount": "0.00",
+      "revenueCheckout": "84.20",
+      "shippingCost": "0.00",
+      "shippingmethod": "NAIDL",
+      "subTotal": "58.22",
+      "totalQty": 2
+    },
+    "wallet": {
+      "walletDiscount": "0.00"
+    },
+    "user": {
+      "userType": "Guest User",
+      "pageType": "Checkout",
+      "timeStamp": 1749827191899
+    },
+    "event": "adb_shipping_&_billing_last_name",
+    "products": [
+      {
+        "ProductParentCategory": "Patio Furniture Covers",
+        "ProductSubCategory": "Seating Covers",
+        "ProductSubSubCategory": "Chair Covers",
+        "categoryID": "323",
+        "parentProductId": "3577",
+        "productCategory": "Patio Furniture Covers : Seating Covers : Chair Covers",
+        "productDiscountedprice": "29.11",
+        "productID": "RipstopBeige1548",
+        "productFabric": "Ripstop",
+        "fabricColor": "Beige",
+        "productName": "Dining Armchair Custom Covers",
+        "productOriginalPrice": "29.11",
+        "productPrice": "29.11",
+        "productQuantity": 2,
+        "productRating": 4.6,
+        "productReviews": 375,
+        "productSKU": "RipstopBeige1548",
+        "productTotalPrice": "58.22",
+        "stockAvailable": "YES",
+        "subCategoryid": "327",
+        "subsubCategoryid": "328",
+        "productWarranty": "1 Year"
+      }
+    ]
+  },
+  {
+    "ecommerce": {
+      "cartID": "4434567",
+      "cartValue": "84.20",
+      "currency": "USD",
+      "couponcode": "NAIDL",
+      "deliveryavailable": "NAIDL",
+      "Deliverydate": "NAIDL",
+      "discountinPercentage": "0.00",
+      "cartDiscountcode": "NAIDL",
+      "cartDiscount": "0.00",
+      "discount": "0.00",
+      "revenueCheckout": "84.20",
+      "shippingCost": "0.00",
+      "shippingmethod": "NAIDL",
+      "subTotal": "58.22",
+      "totalQty": 2
+    },
+    "wallet": {
+      "walletDiscount": "0.00"
+    },
+    "user": {
+      "userType": "Guest User",
+      "pageType": "Checkout",
+      "timeStamp": 1749827197456
+    },
+    "event": "adb_shipping_&_billing_address",
+    "products": [
+      {
+        "ProductParentCategory": "Patio Furniture Covers",
+        "ProductSubCategory": "Seating Covers",
+        "ProductSubSubCategory": "Chair Covers",
+        "categoryID": "323",
+        "parentProductId": "3577",
+        "productCategory": "Patio Furniture Covers : Seating Covers : Chair Covers",
+        "productDiscountedprice": "29.11",
+        "productID": "RipstopBeige1548",
+        "productFabric": "Ripstop",
+        "fabricColor": "Beige",
+        "productName": "Dining Armchair Custom Covers",
+        "productOriginalPrice": "29.11",
+        "productPrice": "29.11",
+        "productQuantity": 2,
+        "productRating": 4.6,
+        "productReviews": 375,
+        "productSKU": "RipstopBeige1548",
+        "productTotalPrice": "58.22",
+        "stockAvailable": "YES",
+        "subCategoryid": "327",
+        "subsubCategoryid": "328",
+        "productWarranty": "1 Year"
+      }
+    ]
+  },
+  {
+    "user": {
+      "userState": "Suwanee",
+      "userType": "Guest User",
+      "pageType": "Checkout",
+      "timeStamp": 1749827199799
+    },
+    "ecommerce": {
+      "cartID": "4434567",
+      "cartValue": "84.20",
+      "currency": "USD",
+      "couponcode": "NAIDL",
+      "deliveryavailable": "NAIDL",
+      "Deliverydate": "NAIDL",
+      "discountinPercentage": "0.00",
+      "cartDiscountcode": "NAIDL",
+      "cartDiscount": "0.00",
+      "discount": "0.00",
+      "revenueCheckout": "84.20",
+      "shippingCost": "0.00",
+      "shippingmethod": "NAIDL",
+      "subTotal": "58.22",
+      "totalQty": 2
+    },
+    "wallet": {
+      "walletDiscount": "0.00"
+    },
+    "event": "adb_shipping_&_billing_city",
+    "products": [
+      {
+        "ProductParentCategory": "Patio Furniture Covers",
+        "ProductSubCategory": "Seating Covers",
+        "ProductSubSubCategory": "Chair Covers",
+        "categoryID": "323",
+        "parentProductId": "3577",
+        "productCategory": "Patio Furniture Covers : Seating Covers : Chair Covers",
+        "productDiscountedprice": "29.11",
+        "productID": "RipstopBeige1548",
+        "productFabric": "Ripstop",
+        "fabricColor": "Beige",
+        "productName": "Dining Armchair Custom Covers",
+        "productOriginalPrice": "29.11",
+        "productPrice": "29.11",
+        "productQuantity": 2,
+        "productRating": 4.6,
+        "productReviews": 375,
+        "productSKU": "RipstopBeige1548",
+        "productTotalPrice": "58.22",
+        "stockAvailable": "YES",
+        "subCategoryid": "327",
+        "subsubCategoryid": "328"
+      }
+    ]
+  },
+  {
+    "event": "adb_scroll_50%",
+    "user": {
+      "timeStamp": 1749827200079
+    }
+  },
+  {
+    "user": {
+      "pinCode": "NAIDL",
+      "userType": "Guest User",
+      "pageType": "Checkout",
+      "timeStamp": 1749827202087
+    },
+    "ecommerce": {
+      "cartID": "4434567",
+      "cartValue": "84.20",
+      "currency": "USD",
+      "couponcode": "NAIDL",
+      "deliveryavailable": "NAIDL",
+      "Deliverydate": "NAIDL",
+      "discountinPercentage": "0.00",
+      "cartDiscountcode": "NAIDL",
+      "cartDiscount": "0.00",
+      "discount": "0.00",
+      "revenueCheckout": "84.20",
+      "shippingCost": "0.00",
+      "shippingmethod": "NAIDL",
+      "subTotal": "58.22",
+      "totalQty": 2
+    },
+    "wallet": {
+      "walletDiscount": "0.00"
+    },
+    "event": "adb_shipping_&_billing_zip_code",
+    "products": [
+      {
+        "ProductParentCategory": "Patio Furniture Covers",
+        "ProductSubCategory": "Seating Covers",
+        "ProductSubSubCategory": "Chair Covers",
+        "categoryID": "323",
+        "parentProductId": "3577",
+        "productCategory": "Patio Furniture Covers : Seating Covers : Chair Covers",
+        "productDiscountedprice": "29.11",
+        "productID": "RipstopBeige1548",
+        "productFabric": "Ripstop",
+        "fabricColor": "Beige",
+        "productName": "Dining Armchair Custom Covers",
+        "productOriginalPrice": "29.11",
+        "productPrice": "29.11",
+        "productQuantity": 2,
+        "productRating": 4.6,
+        "productReviews": 375,
+        "productSKU": "RipstopBeige1548",
+        "productTotalPrice": "58.22",
+        "stockAvailable": "YES",
+        "subCategoryid": "327",
+        "subsubCategoryid": "328",
+        "productWarranty": "1 Year"
+      }
+    ]
+  },
+  {
+    "ecommerce": {
+      "cartID": "4434567",
+      "cartValue": "84.20",
+      "currency": "USD",
+      "couponcode": "NAIDL",
+      "deliveryavailable": "NAIDL",
+      "Deliverydate": "NAIDL",
+      "discountinPercentage": "0.00",
+      "cartDiscountcode": "NAIDL",
+      "cartDiscount": "0.00",
+      "discount": "0.00",
+      "revenueCheckout": "84.20",
+      "shippingCost": "0.00",
+      "shippingmethod": "NAIDL",
+      "subTotal": "58.22",
+      "totalQty": 2
+    },
+    "wallet": {
+      "walletDiscount": "0.00"
+    },
+    "user": {
+      "userType": "Guest User",
+      "pageType": "Checkout",
+      "timeStamp": 1749827214344
+    },
+    "event": "adb_shipping_&_billing_phone_number",
+    "products": [
+      {
+        "ProductParentCategory": "Patio Furniture Covers",
+        "ProductSubCategory": "Seating Covers",
+        "ProductSubSubCategory": "Chair Covers",
+        "categoryID": "323",
+        "parentProductId": "3577",
+        "productCategory": "Patio Furniture Covers : Seating Covers : Chair Covers",
+        "productDiscountedprice": "29.11",
+        "productID": "RipstopBeige1548",
+        "productFabric": "Ripstop",
+        "fabricColor": "Beige",
+        "productName": "Dining Armchair Custom Covers",
+        "productOriginalPrice": "29.11",
+        "productPrice": "29.11",
+        "productQuantity": 2,
+        "productRating": 4.6,
+        "productReviews": 375,
+        "productSKU": "RipstopBeige1548",
+        "productTotalPrice": "58.22",
+        "stockAvailable": "YES",
+        "subCategoryid": "327",
+        "subsubCategoryid": "328",
+        "productWarranty": "1 Year"
+      }
+    ]
+  },
+  {
+    "event": "adb_nextbtn_click",
+    "user": {
+      "timeStamp": 1749827214454,
+      "userType": "Guest User",
+      "pageType": "Checkout"
+    }
+  },
+  {
+    "event": "adb_scroll_90%",
+    "user": {
+      "timeStamp": 1749827222146
+    }
+  }
+]
